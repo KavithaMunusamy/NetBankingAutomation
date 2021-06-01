@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="netBanking1">
+
+	<parameter name="browser" value="chrome"></parameter>
+	
+	<listeners>
+		<listener class-name="com.netbanking.utils.TestReporting" />
+	</listeners>
+	
+	<test thread-count="5" name="netBanking1">
+		<classes>
+			
+			<class name="com.netbanking.tests.LoginTC001"/>
+			
+			<!--  <class name="com.netbanking.tests.AddNewCustomerTC002"> 
+				<methods> <include name="loginTC"/> <include name="invalidCustomerFields"/> 
+				</methods> </class> -->
+			
+			<class name="com.netbanking.tests.EditCustomerTC003">
+				<methods>
+					<include name="loginTC" />
+					<include name="editCustomer" />
+				</methods>
+			</class>
+			
+		</classes>
+	</test> <!-- netBanking1 -->
+</suite> <!-- netBanking1 -->

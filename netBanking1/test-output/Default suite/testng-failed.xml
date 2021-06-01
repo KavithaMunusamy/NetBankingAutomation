@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.netbanking.tests.EditCustomerTC_004">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTC"/>
+          <include name="setUp"/>
+          <include name="editCustomer"/>
+          <include name="updateCustomerFields"/>
+        </methods>
+      </class> <!-- com.netbanking.tests.EditCustomerTC_004 -->
+      <class name="com.netbanking.tests.netbanking">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTC"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.netbanking.tests.netbanking -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

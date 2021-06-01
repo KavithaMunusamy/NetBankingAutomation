@@ -1,0 +1,18 @@
+[INFO ] 2021-05-17 11:09:40.310 [main] PropertiesConfiguration - file loaded successfully
+[INFO ] 2021-05-17 11:09:40.340 [main] PropertiesConfiguration - file loaded successfully
+[DEBUG] 2021-05-17 11:09:43.194 [main] NetBanking - Browser configuration set to chrome Driver
+[INFO ] 2021-05-17 11:09:43.752 [main] NetBanking - Retrieve  Test Data from Excel
+[DEBUG] 2021-05-17 11:09:45.245 [main] ExcelUtility - Data retrived from Excel document for Sheet:LoginSheet
+[INFO ] 2021-05-17 11:09:46.541 [main] NetBanking - Base Url is launched
+[INFO ] 2021-05-17 11:09:48.174 [main] NetBanking - Login Successful
+[INFO ] 2021-05-17 11:09:48.213 [main] NetBanking - Retrieve  Test Data from Excel
+[DEBUG] 2021-05-17 11:09:48.403 [main] ExcelUtility - Data retrived from Excel document for Sheet:EditCustomerDetailsSheet
+[INFO ] 2021-05-17 11:09:48.405 [main] NetBanking - Edit Customer Data for:31324
+[INFO ] 2021-05-17 11:09:49.551 [main] CommonUtility - No Alert
+[DEBUG] 2021-05-17 11:09:49.556 [main] NetBanking - In Web Page:Guru99 Bank Edit Customer Entry Page
+[INFO ] 2021-05-17 11:09:49.558 [main] NetBanking - city:cdonnnqw to be edited
+[INFO ] 2021-05-17 11:09:49.769 [main] NetBanking - customerId:31324 to be edited
+[INFO ] 2021-05-17 11:09:49.770 [main] NetBanking - alertText1:Customer does not exist!! to be edited
+[INFO ] 2021-05-17 11:09:49.770 [main] NetBanking - alertText:No Changes made to Customer records to be edited
+[INFO ] 2021-05-17 11:09:50.156 [main] CommonUtility - Alert Present.No Changes made to Customer records
+[INFO ] 2021-05-17 11:09:51.589 [main] NetBanking - Closing All Browsers

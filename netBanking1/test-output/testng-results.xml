@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="netBanking1" duration-ms="7033" started-at="2021-05-17T10:43:44 BST" finished-at="2021-05-17T10:43:51 BST">
+    <groups>
+      <group name="LoginTC001.login">
+        <method signature="LoginTC001.login(java.util.Map)[pri:0, instance:com.netbanking.tests.LoginTC001@1ba9117e]" name="login" class="com.netbanking.tests.LoginTC001"/>
+      </group> <!-- LoginTC001.login -->
+    </groups>
+    <test name="netBanking1" duration-ms="7033" started-at="2021-05-17T10:43:44 BST" finished-at="2021-05-17T10:43:51 BST">
+      <class name="com.netbanking.tests.LoginTC001">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.netbanking.tests.LoginTC001@1ba9117e]" name="setUp" is-config="true" duration-ms="2931" started-at="2021-05-17T10:43:41 BST" finished-at="2021-05-17T10:43:44 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e73b552]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.util.Map)[pri:0, instance:com.netbanking.tests.LoginTC001@1ba9117e]" name="login" duration-ms="2770" started-at="2021-05-17T10:43:46 BST" data-provider="userCredentialsData" finished-at="2021-05-17T10:43:49 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=sehYhYd, expectedOutput=Guru99 Bank Manager HomePage, userId=mngr325812}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.netbanking.tests.LoginTC001@1ba9117e]" name="tearDown" is-config="true" duration-ms="908" started-at="2021-05-17T10:43:52 BST" finished-at="2021-05-17T10:43:53 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.netbanking.tests.LoginTC001 -->
+      <class name="com.netbanking.tests.EditCustomerTC003">
+        <test-method status="PASS" signature="editCustomer(java.util.Map)[pri:0, instance:com.netbanking.tests.EditCustomerTC003@732c2a62]" name="editCustomer" duration-ms="2136" depends-on-groups="LoginTC001.login" started-at="2021-05-17T10:43:49 BST" data-provider="editCustData" finished-at="2021-05-17T10:43:51 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{customerId=31324, alertText1=Customer does not exist!!, alertText=No Changes made to Customer records, city=cdonnnqw}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+      </class> <!-- com.netbanking.tests.EditCustomerTC003 -->
+    </test> <!-- netBanking1 -->
+  </suite> <!-- netBanking1 -->
+</testng-results>
